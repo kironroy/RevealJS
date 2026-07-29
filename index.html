@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Presentation</title>
+
+    <!-- Reveal.js core styles and theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css">
+</head>
+
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Slide 1: Main Title -->
+            <section>
+                <h1>Hello Reveal.js</h1>
+                <p>Press the <strong>Right Arrow</strong> key to continue.</p>
+            </section>
+
+            <!-- Slide 2: Horizontal Slide -->
+            <section>
+                <h2>Horizontal Navigation</h2>
+                <p>Slides naturally progress left to right.</p>
+            </section>
+
+            <!-- Slide 3: Vertical Stack -->
+            <section>
+                <section>
+                    <h2>Main Topic (Vertical Stack)</h2>
+                    <p>Press the <strong>Down Arrow</strong> key for details on this topic.</p>
+                </section>
+                <section>
+                    <h2>Sub-topic 1</h2>
+                    <p>Sub-slides let you dive deeper without losing your place in the main deck.</p>
+                </section>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Reveal.js JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true // Keeps URL in sync with slide position
+        });
+    </script>
+</body>
+
+</html>
