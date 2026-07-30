@@ -1,0 +1,51 @@
+h1,
+p {
+  font-family: Calibri, Candara, Arial, sans-serif;
+}
+
+.quote {
+  font-style: italic;
+  font-family: 'Georgia', serif;
+  color: #242424;
+  margin: 20px 0;
+}
+
+.emphasis {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Accessible Button Styles */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+
+  /* Target size: Minimum 44x44px touch area for WCAG compliance */
+  min-height: 44px;
+  padding: 10px 16px;
+
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #222222;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* High-contrast focus state for keyboard navigation */
+.theme-toggle:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 3px;
+}
+
+.theme-toggle:hover {
+  background-color: #333333;
+}
